@@ -22,6 +22,5 @@
     },
     "moduleResolution": "bundler"
   },
-  "src": "./react",
-  "exclude": ["docs"]
+  "src": "./react"
 }
