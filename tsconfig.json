@@ -23,5 +23,5 @@
     "moduleResolution": "bundler"
   },
   "src": "./react",
-  "exclude": ["dist"]
+  "exclude": ["docs"]
 }

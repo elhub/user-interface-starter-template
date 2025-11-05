@@ -5,7 +5,7 @@ import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
 
 export default tseslint.config(
-  { ignores: ["dist"] },
+  { ignores: ["dist", "docs"] },
   {
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
