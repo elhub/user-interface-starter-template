@@ -14,7 +14,7 @@ ReactDOM.createRoot(root!).render(
   <StrictMode>
     <NuqsAdapter>
       <ChakraProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/user-interface-starter-template">
           <Routes>
             <Route element={<RootLayout />}>
               <Route index element={<App />} errorElement={<Error />} />
