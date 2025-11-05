@@ -6,8 +6,8 @@ const Header = () => {
       <Link href="/" bg="white" py="1" px="2">
         Home
       </Link>
-      <Link href="/page" bg="white" py="1" px="2">
-        Metering Volumes Page
+      <Link href="/mv" bg="white" py="1" px="2">
+        MV Page
       </Link>
     </Flex>
   );
