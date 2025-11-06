@@ -1,14 +1,15 @@
-import { Flex, Link } from "@chakra-ui/react";
+import { Flex, Link as ChakraLink } from "@chakra-ui/react";
+import { Link } from "react-router";
 
 const Header = () => {
   return (
     <Flex bg="blue.100" gap="16" justify="center" py="2">
-      <Link href="/" bg="white" py="1" px="2">
+      <ChakraLink as={Link} to="/" bg="white" py="1" px="2">
         Home
-      </Link>
-      <Link href="/page" bg="white" py="1" px="2">
-        Metering Volumes Page
-      </Link>
+      </ChakraLink>
+      <ChakraLink as={Link} to="/mv" bg="white" py="1" px="2">
+        MV Page
+      </ChakraLink>
     </Flex>
   );
 };

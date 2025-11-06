@@ -1,3 +1,15 @@
-# ui-portal-vite
+# user-interface-starter-template
 
-Clean sandbox environment for portal2 development.
+Bootstrapped with
+
+- typescript
+- react
+- vite
+- react router
+- recharts
+- nuqs
+- tanstack table
+- tanstack query
+- eslint
+- prettier
+- knip
