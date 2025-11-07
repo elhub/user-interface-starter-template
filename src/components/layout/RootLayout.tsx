@@ -4,12 +4,12 @@ import Header from "@/components/header";
 
 const RootLayout = () => {
   return (
-    <>
+    <Flex flexDir="column" minH="100vh">
       <Header />
-      <Flex flexDir="column" align="center" gap="8" mx="auto" minH="calc(100vh - 48px)">
+      <Flex flexDir="column" align="center" gap="8" minH="calc(100vh - 48px)" w="full">
         <Outlet />
       </Flex>
-    </>
+    </Flex>
   );
 };
 

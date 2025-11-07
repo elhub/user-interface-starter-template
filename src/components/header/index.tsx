@@ -10,6 +10,9 @@ const Header = () => {
       <ChakraLink as={Link} to="/mv" bg="white" py="1" px="2">
         MV Page
       </ChakraLink>
+      <ChakraLink as={Link} to="/tournament" bg="white" py="1" px="2">
+        Tournament
+      </ChakraLink>
     </Flex>
   );
 };

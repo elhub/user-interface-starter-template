@@ -7,6 +7,7 @@ import App from "@/App";
 import RootLayout from "@/components/layout/RootLayout";
 import Mv from "@/pages/mv";
 import Error from "@/pages/error";
+import Tournament from "@/pages/tournament";
 
 const root = document.getElementById("root");
 
@@ -19,6 +20,7 @@ ReactDOM.createRoot(root!).render(
             <Route element={<RootLayout />}>
               <Route index element={<App />} errorElement={<Error />} />
               <Route path="mv" element={<Mv />} errorElement={<Error />} />
+              <Route path="tournament" element={<Tournament />} errorElement={<Error />} />
             </Route>
           </Routes>
         </BrowserRouter>
