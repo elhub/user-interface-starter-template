@@ -41,6 +41,7 @@ export const round2: Round = {
       circuit: "Shell Cup",
       cc: "100cc",
       location: "Huben",
+      isFinished: true,
       players: [
         { id: "p41", name: "Winner of Match 5", description: "" },
         { id: "p42", name: "Winner of Match 6", description: "" },
@@ -55,6 +56,7 @@ export const round2: Round = {
       circuit: "Banana Cup",
       cc: "100cc",
       location: "Huben",
+      isFinished: true,
       players: [
         { id: "p45", name: "Winner of Match 7", description: "" },
         { id: "p46", name: "Winner of Match 8", description: "" },

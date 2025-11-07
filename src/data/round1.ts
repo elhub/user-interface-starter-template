@@ -239,6 +239,7 @@ export const round1: Round = {
       circuit: "Banana Cup",
       cc: "50cc",
       location: "Huben",
+      isFinished: true,
       players: [
         {
           id: "p17",
@@ -293,6 +294,7 @@ export const round1: Round = {
       circuit: "Leaf Cup",
       cc: "50cc",
       location: "Huben",
+      isFinished: true,
       players: [
         {
           id: "p21",
@@ -347,6 +349,7 @@ export const round1: Round = {
       circuit: "Lightning Cup",
       cc: "50cc",
       location: "Huben",
+      isFinished: true,
       players: [
         {
           id: "p25",
@@ -401,6 +404,7 @@ export const round1: Round = {
       circuit: "Mushroom Cup",
       cc: "50cc",
       location: "Huben",
+      isFinished: true,
       players: [
         {
           id: "p29",
