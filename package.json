@@ -24,7 +24,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.1",
     "recharts": "^3.2.1",
-    "styled-components": "^6.1.15"
+    "styled-components": "^6.5.1"
   },
   "devDependencies": {
     "@types/css": "^0.0.38",
